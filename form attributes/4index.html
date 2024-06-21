@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form with File Input</title>
+</head>
+<body>
+    <h1>Form with File Input</h1>
+    <form action="/submit" method="post" enctype="multipart/form-data">
+        <label for="file">Upload Files:</label>
+        <input type="file" id="file" name="file" multiple>
+        <br>
+        <input type="submit" value="Upload">
+    </form>
+</body>
+</html>

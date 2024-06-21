@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form with Disabled and Readonly Fields</title>
+</head>
+<body>
+    <h1>Form with Disabled and Readonly Fields</h1>
+    <form action="/submit" method="post">
+        <label for="readonly">Readonly Field:</label>
+        <input type="text" id="readonly" name="readonly" value="You cannot change this" readonly>
+        <br>
+        <label for="disabled">Disabled Field:</label>
+        <input type="text" id="disabled" name="disabled" value="This is disabled" disabled>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
